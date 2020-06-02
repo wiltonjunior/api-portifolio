@@ -6,7 +6,7 @@ const express = require('express');
 
 const app = express();
 
-app.listen(() => {
-
+app.listen(process.env.PORT, () => {
+console.log('App listening port 3000')
 })
 
